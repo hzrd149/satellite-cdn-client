@@ -1,0 +1,26 @@
+{
+  "name": "satellite-cdn-client",
+  "version": "0.1.0",
+  "description": "Helper methods to talk to satellite CDN",
+  "type": "module",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "author": "hzrd149",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "format": "prettier -w ."
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "dependencies": {
+    "cross-fetch": "^4.0.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
